@@ -1,0 +1,35 @@
+{
+  "name": "koa-server-generator",
+  "version": "1.0.0",
+  "description": "run a local koa server directly",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-views": "^2.1.0",
+    "koa": "^0.20.0",
+    "koa-bodyparser": "^2.0.0",
+    "koa-json": "^1.1.1",
+    "koa-logger": "^1.2.2",
+    "koa-mount": "^1.3.0",
+    "koa-router": "^5.0.0",
+    "koa-static": "*",
+    "swig": "^1.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyqeyes/koa-server-generator.git"
+  },
+  "keywords": [
+    "koa",
+    "for test"
+  ],
+  "author": "lyq@oureda.cn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyqeyes/koa-server-generator/issues"
+  },
+  "homepage": "https://github.com/lyqeyes/koa-server-generator#readme"
+}
