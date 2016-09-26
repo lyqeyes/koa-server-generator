@@ -14,7 +14,7 @@ var creator = function (path) {
 };
 module.exports.register = function (router) {
     config.pages.forEach(function (n) {
-        router.get(`/test/${n}`,creator(n));
+        router.get(`/${n}`,creator(n));
     });
     router.get('/',function *() {
         return this.body = "<h1>welcome</h1>";
